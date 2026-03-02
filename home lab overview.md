@@ -270,11 +270,11 @@ Kali Linux
 
 
 
-Network: LAB\_ATTACK
+#Network: LAB\_ATTACK
 
-DHCP enabled
+##DHCP enabled
 
-Gateway: 192.168.30.1
+###Gateway: 192.168.30.1
 
 
 
