@@ -1,10 +1,10 @@
-#🧪 Enterprise-Style Home Lab – Network \& Security Build
+# 🧪 Enterprise-Style Home Lab – Network \& Security Build
 
 
 
-Author: Adam
+## Author: Adam
 
-Purpose: Enterprise-style lab for System Administration, Red Team \& Blue Team practice
+### Purpose: Enterprise-style lab for System Administration, Red Team \& Blue Team practice
 
 Platform: VirtualBox
 
@@ -242,7 +242,7 @@ Join domain: corp.local
 
 
 
-##🎯 Post-Join Configuration
+## 🎯 Post-Join Configuration
 
 
 
