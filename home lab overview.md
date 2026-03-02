@@ -1,4 +1,4 @@
-🧪 Enterprise-Style Home Lab – Network \& Security Build
+#🧪 Enterprise-Style Home Lab – Network \& Security Build
 
 
 
@@ -14,17 +14,17 @@ Segmentation: LAN / DMZ / ATTACK
 
 
 
-📌 1. Network Design \& IP Addressing Plan
+#📌 1. Network Design \& IP Addressing Plan
 
 
 
-🏗 Architecture Overview
+##🏗 Architecture Overview
 
 
 
 
 
-🌐 Network Segments
+##🌐 Network Segments
 
 
 
@@ -40,7 +40,7 @@ ATTACK		Red Team Network		192.168.30.0/24		192.168.30.1	Kali Linux
 
 
 
-🔐 Security Design Principles
+##🔐 Security Design Principles
 
 
 
@@ -60,7 +60,7 @@ Firewall: pfSense
 
 
 
-🔌 Network Adapter Layout (pfSense VM)
+##🔌 Network Adapter Layout (pfSense VM)
 
 
 
@@ -76,7 +76,7 @@ Adapter 4	Internal Network	LAB\_ATTACK	ATTACK
 
 
 
-🖥 Other VMs Network Assignment
+##🖥 Other VMs Network Assignment
 
 
 
@@ -92,7 +92,7 @@ Kali Linux		LAB\_ATTACK
 
 
 
-📌 3. pfSense Installation \& Configuration
+#📌 3. pfSense Installation \& Configuration
 
 
 
@@ -102,7 +102,7 @@ pfSense
 
 
 
-🔧 Installation Steps
+##🔧 Installation Steps
 
 
 
@@ -126,7 +126,7 @@ Assign interfaces:
 
 
 
-🌍 Interface Configuration
+##🌍 Interface Configuration
 
 
 
@@ -142,7 +142,7 @@ ATTACK		192.168.30.1/24		Enabled
 
 
 
-🔥 Basic Firewall Rules (Initial)
+##🔥 Basic Firewall Rules (Initial)
 
 
 
@@ -170,7 +170,7 @@ Block → LAN (optional for realism)
 
 
 
-📌 4. Domain Controller Deployment
+#📌 4. Domain Controller Deployment
 
 
 
@@ -180,7 +180,7 @@ Windows Server
 
 
 
-🖥 VM Configuration
+##🖥 VM Configuration
 
 
 
@@ -194,7 +194,7 @@ Gateway: 192.168.10.1
 
 
 
-🔐 Roles to Install
+##🔐 Roles to Install
 
 
 
@@ -204,7 +204,7 @@ DNS Server
 
 
 
-🌳 Domain Design
+##🌳 Domain Design
 
 
 
@@ -218,7 +218,7 @@ Forest Level	Latest supported
 
 
 
-📌 5. Client Machines
+#📌 5. Client Machines
 
 
 
@@ -242,7 +242,7 @@ Join domain: corp.local
 
 
 
-🎯 Post-Join Configuration
+##🎯 Post-Join Configuration
 
 
 
@@ -256,7 +256,7 @@ Install Sysmon (optional for Blue Team phase)
 
 
 
-📌 6. Kali Linux Deployment
+#📌 6. Kali Linux Deployment
 
 
 
@@ -266,7 +266,7 @@ Kali Linux
 
 
 
-🖥 Configuration
+##🖥 Configuration
 
 
 
@@ -278,7 +278,7 @@ Gateway: 192.168.30.1
 
 
 
-🔴 Usage Purpose
+##🔴 Usage Purpose
 
 
 
@@ -294,7 +294,7 @@ Pivoting through DMZ
 
 
 
-📌 Lab Phase 1 Goals
+#📌 Lab Phase 1 Goals
 
 Validate routing between segments
 
@@ -310,7 +310,7 @@ Capture logs on firewall
 
 
 
-📌 Future Expansion
+#📌 Future Expansion
 
 
 
@@ -330,7 +330,7 @@ SOC monitoring stack
 
 
 
-🎯 End State Objective
+#🎯 End State Objective
 
 
 
