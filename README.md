@@ -72,6 +72,14 @@ Assign interfaces:\
 	OPT1 → DMZ\
 	OPT2 → ATTACK
 
+| Interface | IP Address / Subnet        | DHCP Server                | Notes                                                                                       |
+| --------- | -------------------------- | -------------------------- | ------------------------------------------------------------------------------------------- |
+| WAN       | DHCP (from VirtualBox NAT) | ❌ No                       | Receives IP automatically from VirtualBox NAT; pfSense does **not** assign IPs on WAN.      |
+| LAN       | 192.168.10.1/24            | ✅ Yes                      | Internal network for Domain Controller & clients; pfSense assigns IPs to clients.           |
+| DMZ       | 192.168.20.1/24            | ⚪ Optional / Recommended ❌ | Public-facing servers; usually static IPs for web/mail servers. DHCP optional for test VMs. |
+| ATTACK    | 192.168.30.1/24            | ✅ Yes                      | Red team network; DHCP assigns IPs to attacker VMs like Kali Linux.                         |
+
+
 ## 🌐 Interface Configuration
 
 | Interface | IP Address         | DHCP     |
