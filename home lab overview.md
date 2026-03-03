@@ -20,12 +20,12 @@ Segmentation: LAN / DMZ / ATTACK
 
 ## 🌐 Network Segments
 
-Segment		Purpose				Subnet			Gateway		Notes
-
-WAN		Simulated Internet		DHCP (VirtualBox NAT)	Auto		External access
-LAN		Internal Corporate Network	192.168.10.0/24		192.168.10.1	AD, Clients
-DMZ		Public Services			192.168.20.0/24		192.168.20.1	Web, exposed services
-ATTACK		Red Team Network		192.168.30.0/24		192.168.30.1	Kali Linux
+| Segment | Purpose                     | Subnet              | Gateway       | Notes                    |
+|---------|-----------------------------|---------------------|---------------|--------------------------|
+| WAN     | Simulated Internet          | DHCP (VirtualBox NAT) | Auto        | External access          |
+| LAN     | Internal Corporate Network  | 192.168.10.0/24     | 192.168.10.1  | AD, Clients              |
+| DMZ     | Public Services             | 192.168.20.0/24     | 192.168.20.1  | Web, exposed services    |
+| ATTACK  | Red Team Network            | 192.168.30.0/24     | 192.168.30.1  | Kali Linux               |
 
 ## 🔐 Security Design Principles
 
@@ -184,5 +184,6 @@ Create a realistic enterprise lab environment suitable for:
 📊 Security monitoring implementation
 
 📁 Portfolio \& GitHub documentation
+
 
 
