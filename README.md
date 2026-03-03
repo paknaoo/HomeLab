@@ -1,9 +1,9 @@
-# 🧪 Enterprise-Style Home Lab – Network \& Security Build
+# 🧪 Home Lab – Network \& Security Build
 
 
 
 Author: Adam \
-Purpose: Enterprise-style lab for System Administration, Red Team & Blue Team practice \
+Purpose: Lab for System Administration, Red Team & Blue Team practice \
 Platform: VirtualBox \
 Firewall: pfSense \
 Segmentation: LAN / DMZ / ATTACK
