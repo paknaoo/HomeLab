@@ -98,7 +98,7 @@ Block → LAN (optional for realism)
 # 📌 4. Domain Controller Deployment
 
 OS:\
-Windows Server\
+Windows Server
 
 ## 🖥 VM Configuration
 
@@ -110,7 +110,7 @@ Gateway: 192.168.10.1
 ## 🔐 Roles to Install
 
 Active Directory Domain Services (AD DS)\
-DNS Server\
+DNS Server
 
 ## 🌳 Domain Configuration
 
@@ -185,5 +185,6 @@ Red Team exercises\
 Blue Team detection \& response\
 Security monitoring implementation\
 Portfolio \& GitHub documentation\
+
 
 
