@@ -13,12 +13,10 @@ Segmentation: LAN / DMZ / ATTACK
 
 
 ## 🏗 Architecture Overview
-🌐 Network Topology
-
 
 This lab follows an enterprise-style segmented network model with a centralized firewall controlling all traffic between zones.
 
-🗺 Logical Network Diagram
+## 🗺 Logical Network Diagram
 <img width="1612" height="987" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/2ffa3ecf-71fc-4d92-8936-5c812ab855f2" />
 
 
