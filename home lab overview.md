@@ -2,7 +2,7 @@
 
 
 
-Author: Adam
+Author: Adam \
 Purpose: Enterprise-style lab for System Administration, Red Team \& Blue Team practice
 Platform: VirtualBox
 Firewall: pfSense
@@ -182,4 +182,5 @@ Create a realistic enterprise lab environment suitable for:
 🔴 Red Team exercises
 🔵 Blue Team detection \& response
 📊 Security monitoring implementation
+
 📁 Portfolio \& GitHub documentation
