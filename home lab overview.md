@@ -6,7 +6,7 @@ Author: Adam \
 Purpose: Enterprise-style lab for System Administration, Red Team & Blue Team practice \
 Platform: VirtualBox \
 Firewall: pfSense \
-Segmentation: LAN / DMZ / ATTACK \
+Segmentation: LAN / DMZ / ATTACK
 
 # 📌 1. Network Design \& IP Addressing Plan
 
@@ -184,4 +184,5 @@ Create a realistic enterprise lab environment suitable for:
 📊 Security monitoring implementation
 
 📁 Portfolio \& GitHub documentation
+
 
